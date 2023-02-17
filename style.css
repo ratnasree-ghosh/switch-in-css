@@ -1,0 +1,41 @@
+#check{
+    height: 0;
+    width: 0;
+}
+
+input:checked + label{
+    background-color: green;
+}
+
+input:checked + label > .circle{
+    left: 30px;
+}
+
+label{
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    background-color: gray;
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid black;
+    box-shadow: 1px 2px 4px grey;
+    
+}
+
+.circle{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.test{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 280px;
+}
+
